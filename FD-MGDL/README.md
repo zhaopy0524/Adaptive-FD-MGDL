@@ -4,7 +4,7 @@ In this work, we compare our proposed methods, FD-MGDL and FD-SGDL, with several
 - SIREN: https://github.com/vsitzmann/siren
 - PINN: https://github.com/maziarraissi/PINNs
 
-# References
+**References**
 - [1] Liu, Z., Cai, W., & Xu, Z.-Q. J. (2020). Multi-Scale Deep Neural Network (MscaleDNN) for Solving Poisson-Boltzmann Equation in Complex Domains. Communications in Computational Physics, 28(5), 1970–2001.
 - [2] Moseley, B., Markham, A., & Nissen-Meyer, T. (2023). Finite basis physics-informed neural networks (FBPINNs): a scalable domain decomposition approach for solving differential equations. Advances in Computational Mathematics, 49(4), 62.
 - [3] Sitzmann, V., Martel, J. N. P., Bergman, A. W., Lindell, D. B., & Wetzstein, G. (2020). Implicit neural representations with periodic activation functions. Advances in Neural Information Processing Systems, 33, 7462–7473.
