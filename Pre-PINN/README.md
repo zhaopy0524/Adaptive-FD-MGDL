@@ -1,1 +1,3 @@
-Pre-PINN
+This directory contains the source code for the Pre-PINN method [5], originally developed by De Ryck et al. (2024) in their work “An operator preconditioning perspective on training in physics-informed machine learning”.
+
+Our study builds upon this codebase by adapting it to the particular tasks and configurations discussed in the main text. The original code is uploaded here for reference and transparency, respecting the authors’ copyright. To reproduce the results presented in our paper, users must make the necessary modifications. For general usage of Pre-PINN, please refer to the original paper.
