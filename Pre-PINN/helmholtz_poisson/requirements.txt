@@ -1,0 +1,8 @@
+matplotlib==3.7.3
+numpy==1.23.5
+numpy==1.24.3
+scipy==1.11.3
+seaborn==0.12.2
+torch==2.0.1
+torch==1.13.1
+torchopt==0.7.2
