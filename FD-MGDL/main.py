@@ -1,4 +1,8 @@
-from data_generate import generate_data
+# -*- coding: utf-8 -*-
+
+
+from multigrade_dnn_main import multi_grade_dnn
+from multigrade_FD import generate_data
 
 #set parameter
 
@@ -12,7 +16,7 @@ mul_layers_dims =  [[2, 256, 256, 1]]                  # this is the structure f
 #set activation for MGDL for each grade
 activation = ['sin']
 #set train epoch for each grade
-mul_epochs = [5000]
+mul_epochs = [500]
 
 stop_criterion = [1e-06]
 
