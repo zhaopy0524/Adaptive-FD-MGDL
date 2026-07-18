@@ -7,6 +7,8 @@ In this work, we compare our proposed methods, FD-MGDL and FD-SGDL, with several
 - SIREN: https://github.com/vsitzmann/siren
 - PINN: https://github.com/maziarraissi/PINNs
 
+If you have any questions about the code, please contact zhaopy23@mails.jlu.edu.cn.
+
 # Abstract
 The Helmholtz equation is fundamental to wave modeling in acoustics, electromagnetics, and seismic imaging, yet high-frequency regimes remain challenging due to the ``pollution effect''. We propose FD-MGDL, an adaptive framework integrating finite difference schemes with Multi-Grade Deep Learning to efficiently resolve high-frequency solutions. While traditional PINNs struggle with spectral bias and automatic differentiation overhead, FD-MGDL employs a progressive training strategy, incrementally adding hidden layers to refine the solution and maintain stability. Crucially, when using ReLU activation, our algorithm recasts the highly non-convex training problem into a sequence of convex subproblems. Numerical experiments in 2D and 3D with wavenumbers up to $\kappa=200$ show that FD-MGDL significantly outperforms single-grade and conventional neural solvers in accuracy and speed. Applied to an inhomogeneous concave velocity model, the framework accurately resolves wave focusing and caustics, surpassing the 5-point finite difference method in capturing sharp phase transitions and amplitude spikes. These results establish FD-MGDL as a robust, scalable solver for high-frequency wave equations in complex domains.
 
